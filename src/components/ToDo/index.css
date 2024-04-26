@@ -1,0 +1,76 @@
+.title{
+    font-family: cursive;
+    text-align: center;  
+}
+.list{
+    list-style: none;
+    padding-top: 6px;
+    padding-left: 10px;
+    margin: 0px;
+    background-color: rgb(236, 217, 234);
+    width: 200%;
+    height: 35px;
+    margin-left: 10px;
+    border-radius: 8px;
+    font-family: cursive;   
+}
+.li-list{
+    display: flex;
+    flex-direction: row;
+    border: 5px;
+    border-color: black;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 0 15px 0 15px;
+}
+body {
+    background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg?w=826&t=st=1711088671~exp=1711089271~hmac=7936a53cea7c32c4a1060ff408c57d389d81276c871a7275610c8182a1ef1426");
+    margin: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aliceblue;
+    margin: 20px;
+    height: auto;
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.inputTask{
+    width: 400px;
+    border-radius: 8px;
+    border: black;
+    height: 35px;
+    background-color: rgb(236, 217, 234);
+    margin-left: 80px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding-left: 10px;
+    font-family: cursive;
+}
+.addtask{
+    width: 20px;
+    height: 20px;
+    border: none;
+    margin-left: 5px;
+    background-color: aliceblue;
+}
+.deleteTask{
+    width: 25px;
+    height: 20px;
+    border: none;
+    margin-left: 10px;
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+.checkbox{
+    transform: scale(1.5);
+}
